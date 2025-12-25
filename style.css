@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.question a {
+    display: inline-block;          
+    margin-top: 20px;
+    padding: 10px 18px;
+
+    color: aliceblue;
+    text-decoration: none;
+
+    border: 1px solid aliceblue;
+    border-radius: 6px;
+
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.question {
+    color: aliceblue;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    width: 50%;
+
+    /* animation */
+    animation: slideUp 1.2s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.question h1 {
+    animation: slideUp 1.2s ease-out forwards;
+}
+
+.question p {
+    animation: slideUp 1.2s ease-out forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
+}

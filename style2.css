@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+.here img {
+    width: 500px;
+    height: 450px;
+    margin-left: 90px;
+    border: 10px solid white;
+}
+
+.here {
+    color: aliceblue;
+    height: 750px;
+    width: 750px;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 25%;
+}
+.here p{
+    text-align: center;
+    margin-right: 100px;
+}
+p{
+    color: aliceblue;
+}
+a{
+    border: 1px solid aliceblue;
+    border-radius: 6px;
+}
+audio{
+    margin: 0px;
+    margin-left: 200px;
+}
